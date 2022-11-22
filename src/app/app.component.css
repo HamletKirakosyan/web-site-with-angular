@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.siteWrapper {
+    margin: 0;
+    padding: 0;
+}
+.header-about {
+    width: 100%;
+    height: 49px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border: 0.5px solid rgba(119, 119, 119, 0.318);
+    padding: 5px;
+}
+.header-about-item {
+    color: #777;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.header-wrapper {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    flex-direction: column;
+}
+.header-top-inner {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 18px;
+    padding: 0;
+}
+
+.header-contact {
+    flex: 3;
+    display: block;
+    padding: 8px;
+    margin: 6px;
+}
+.img-phone {
+    width: 20px;
+    font-size: 1.0666em;
+    color:#777;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.header-logo-block {
+    flex: 2;
+    font-size: 34px;
+}
+.header-logo-block a {
+    text-decoration: none;
+    color: #777;
+    margin-left: 36px;
+}
+
+.header-right-icon {
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+    flex: 4;
+    margin-right: 35px;
+}
+.header-right-search {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+}
+.search-icon {
+    width: 22px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+.search {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #777;
+}
+
+.header-bottom-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 70px;
+    color: rgb(15, 15, 15);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bottom-menu {
+    text-decoration: none;
+    color: rgb(23, 22, 22);
+    font-weight: bold;
+    text-transform: var(#777 #333);
+}
+
+.wrapper-main-img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.main-img {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.items-view {
+    width: 100%;
+    margin: 0 30px 0;
+    padding: 26px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.middle-images-item {
+    width: 600px;
+    height: 300px;
+}
