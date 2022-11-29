@@ -1,0 +1,8 @@
+<div class="pagination-wrapper">
+    <div *ngFor="let page of pages" 
+        class="pagination-item"
+        [class.selected]="page==selectedPage"
+        (click)="onPageSelect(page)"
+    >{{page}}</div>
+
+</div>

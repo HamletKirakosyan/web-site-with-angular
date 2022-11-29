@@ -1,0 +1,19 @@
+.selected {
+    border: 1px dashed red;
+}
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    margin: 20px auto;
+    padding: 12px;
+    cursor: pointer;
+}
+.pagination-item {
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    vertical-align: baseline;
+    position: static;
+}

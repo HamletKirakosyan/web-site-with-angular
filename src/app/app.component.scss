@@ -1,0 +1,20 @@
+.wrapper {
+    padding: 5px;
+    margin: 0auto;
+}
+input {
+    width: 100%;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+}
