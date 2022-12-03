@@ -1,0 +1,6 @@
+a::before {
+    background-color: inherit;
+}
+a:hover {background-color: blue;
+
+}

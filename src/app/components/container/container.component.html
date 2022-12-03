@@ -1,0 +1,36 @@
+<div class="container-wrapper">
+    <div class="todo-settings">
+        <div class="todo" (click)="clicked=true">Todo</div>
+        <div class="settings" (click)="clicked=false">Settings</div>
+    </div>
+    <div class="input-button-todoList"  *ngIf="clicked; else settingsBlock">
+        <div class="input-button">
+            <input type="text" 
+            placeholder="Title"
+            value=""
+            #title
+            >
+            <input type="text" 
+            placeholder="Description"
+            value=""
+            #description
+            >
+            <button class="todoBtn"
+            (click)="onButtonAdd(title, description)"
+            >Submit</button>
+        </div>
+        <div class="todoList">
+            <div *ngFor="let items of titlesdescs"
+            class="addTodo"
+            >
+                <div>Title: {{items.title}}</div>
+                <div>Description: {{items.description}}</div>
+            </div>
+        </div>
+    </div>
+    <ng-template #settingsBlock>
+        <div class="settings">
+            <div class="settings-item" *ngFor="let setting of settings">{{setting.name}}</div>
+        </div>
+    </ng-template>
+</div>
